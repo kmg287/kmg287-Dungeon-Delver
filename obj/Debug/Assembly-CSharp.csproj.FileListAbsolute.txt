@@ -1,0 +1,2 @@
+C:\Users\kilia\OneDrive\Documents\GitHub\kmg287 Dungeon Delver\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\kilia\OneDrive\Documents\GitHub\kmg287 Dungeon Delver\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
