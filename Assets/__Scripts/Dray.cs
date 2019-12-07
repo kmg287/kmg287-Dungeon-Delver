@@ -207,6 +207,10 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
             mode = eMode.knockback;
             knockbackDone = Time.time + knockbackDuration;
         }
+        if (health <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
 
     }
 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Skeletos : Enemy
+public class Skeletos : Enemy, IFacingMover
 {
     [Header("Set in Inspector: Skeletos")]
     public int speed = 2;

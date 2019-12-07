@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{109BD369-6FC9-C825-8253-B0389952F77E}</ProjectGuid>
+    <ProjectGuid>{6EEC2344-41A7-938F-9BE7-7E1913693D57}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,6 +66,7 @@
     <Compile Include="Assets\__Scripts\Enemy.cs" />
     <Compile Include="Assets\__Scripts\GateKeeper.cs" />
     <Compile Include="Assets\__Scripts\Grapple.cs" />
+    <Compile Include="Assets\__Scripts\Grappler.cs" />
     <Compile Include="Assets\__Scripts\GridMove.cs" />
     <Compile Include="Assets\__Scripts\GuiPanel.cs" />
     <Compile Include="Assets\__Scripts\IFacingMover.cs" />
@@ -86,19 +87,19 @@
     <None Include="Assets\Resources\DelverData_Hat.txt" />
     <None Include="Assets\Resources\DelverData.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver Final Version/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver Final Version/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver Final Version/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver Final Version/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver Final Version/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -302,13 +303,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver Final Version/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver Final Version/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/kilia/OneDrive/Documents/GitHub/kmg287 Dungeon Delver Final Version/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
